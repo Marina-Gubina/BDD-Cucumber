@@ -1,0 +1,21 @@
+{
+  "name": "e2e-tests-with-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.7",
+    "@faker-js/faker": "^10.1.0",
+    "cypress": "^15.6.0",
+    "esbuild": "^0.27.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.1"
+  }
+}
